@@ -13,6 +13,11 @@ Header styling
 
 header {
 	height: 69px;
+	position: fixed;
+	top: 0;
+	z-index: 5;
+	background-color: black;
+	width: 100%;
 	border-bottom: 1px solid seashell;
 	display: flex;
 	justify-content: space-between;
@@ -32,6 +37,7 @@ header a {
 
 nav {
 	display: inline;
+	margin-right: 10px;
 }
 
 /*
